@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html class="h-full" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <title>Formulario</title>
+  </head>
+  <body class="h-full">
+    <main class="h-full flex">
+      <div class="h-full hidden lg:block bg-[url('../dist/imgs/sky.jpg')] bg-cover w-[30%] relative">
+    
+
+        <div class="w-full h-[15%] divlogo text-white flex justify-center absolute top-[15%] " > <div class="flex items-center h-full p-3" ><img src="../dist/imgs/odin-lined.png"  class="h-full" alt=""> <strong class="text-2xl" >ODIN ROCKET</strong></div> </div>
+
+
+        <a class="absolute bottom-3 block text-center w-full text-white" href="https://github.com/Greimil">@Greydev</a>
+
+        </div>
+
+
+      <form class="h-full  bg-cover  lg:bg-none flex flex-col gap-4  justify-evenly lg:justify-center font-semibold text-white  lg:text-black lg:w-[70%]  bg-[url('../dist/imgs/sky.jpg')]" action="">
+        <div class=" uppercase lg:bg-terciary grid content-end pl-8 pr-8  lg:grid-cols-3  lg:grid-rows-[60px_60px]   items-end h-[30%] " >
+          <h1 class=" text-base pt-2 lg:text-xl col-span-2">
+            Este no es un formulario de servicio real, pero sin duda alguna
+            necesitas regristrarte aqui para alcanzar tus sueños mas profundos!
+          </h1>
+
+          <h2 class=" col-start-1 col-end-2 ">¡Hagamos esto!</h2>
+        </div>
+
+
+        <div class="h-[60%] pl-8 pr-8 lg:h-[40%] sombra " >
+
+            <div class="h-full     grid  lg:bg-white  lg:text-violet-500 gap-5 lg:grid-cols-3  grid-rows-6 lg:grid-rows-3  items-center" >
+
+           
+                <div >
+                    <label class="uppercase " for="name">Nombre</label>
+                    <input required id="name" class="border-2  text-violet-500  focus:outline-violet-500 outline-8 rounded-md block w-full " type="text">
+                </div>
+    
+    
+                <div class=" ">
+                    <label class="uppercase " for="lastname">Apellido</label>
+                    <input required  id="lastname" class="border-2   text-violet-500  focus:outline-violet-500 outline-8 rounded-md block w-full  " type="text">
+                </div>
+    
+    
+    
+    
+    
+    
+                <div class="col-start-1 col-end-2  ">
+                    <label class="uppercase " for="email">Email</label>
+                    <input required  id="email" class="border-2  text-violet-500   focus:outline-violet-500 outline-8 rounded-md block w-full  " type="text">
+                </div>
+    
+                <div class=" ">
+                    <label class="uppercase " for="number">Numero telefonico</label>
+                    <input  required  id="number" class="border-2  text-violet-500   focus:outline-violet-500 outline-8 rounded-md block w-full  " type="number">
+                </div>
+    
+    
+    
+    
+    
+    
+                <div class=" col-start-1 col-end-2 ">
+                    <label class="uppercase " for="pass">Contraseña</label>
+                    <input required  id="pass" class="border-2  text-violet-500   focus:outline-violet-500 outline-8 rounded-md block w-full  " type="password">
+                </div>
+    
+                <div class="">
+                    <label class="uppercase " for="confir">Confirmar contraseña</label>
+                    <input  required  id="confir" class="border-2 text-violet-500   focus:outline-violet-500 outline-8 rounded-md block w-full  " type="password">
+                </div>
+    
+    
+    
+               </div>
+
+        </div>
+        
+       
+        <div class="lg:bg-terciary h-[30%] grid   lg:grid-rows-[60px_60px] content-center  lg:grid-cols-3    justify-center  items-center pl-8 pr-8" >
+            
+            <button type="submit" class="w-full h-10 block bg-secondary border rounded-[10px]  text-white col-start-1 col-end-2 " >Registrarse</button>
+
+            <strong class="col-start-1 col-end-2 ">¿Ya tienes una cuenta? <a  class="text-violet-500 " href="#">Iniciar Seccion</a>  </strong>
+
+        </div>
+
+
+
+      </form>
+    </main>
+  
+    <script src="/js/script.js"></script>
+
+    </body>
+</html>
